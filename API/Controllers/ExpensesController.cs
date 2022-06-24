@@ -13,7 +13,6 @@ namespace API.Controllers
     [ApiController]
     public class ExpensesController: BaseApiController
     { 
-
         private readonly IMapper _mapper;
         private readonly IUnitOfWork _unitOfWork;
 

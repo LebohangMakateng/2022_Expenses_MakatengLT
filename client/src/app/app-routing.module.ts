@@ -1,7 +1,26 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
+import { DisclaimerComponent } from './disclaimer/disclaimer.component';
+import { NotFoundComponent } from './errors/not-found/not-found.component';
+import { AuthGuard } from './_guards/auth.guard';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: '', component: HomeComponent},
+  {
+    path: '',
+    runGuardsAndResolvers: 'always',
+    canActivate: [AuthGuard],
+    children: [
+    ]
+  },
+  {path: 'not-found', component: NotFoundComponent},
+  {path: 'contact', component: ContactComponent},
+  {path: 'disclaimer', component: DisclaimerComponent},
+  {path: '**', component: NotFoundComponent, pathMatch: 'full'},
+      
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

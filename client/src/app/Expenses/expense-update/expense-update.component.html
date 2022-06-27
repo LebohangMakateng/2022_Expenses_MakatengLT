@@ -1,0 +1,27 @@
+<div class="row" *ngIf="expense">
+    <div class="col-4">
+        <h2>Your expense</h2>
+    </div>
+    <div class="col-8">
+        <div class="alert alert-info" *ngIf="editForm.dirty">
+            <strong>Information: </strong>You have made changes. Any unsaved changes will be lost.
+        </div>
+    </div>
+
+    <div class="col-8">
+                <form #editForm="ngForm" id="editForm" (ngSubmit)="updateExpense()">
+                    <h4>Description</h4>
+                    <textarea class="form-control" [(ngModel)]="expense.description" name="description" rows="6"></textarea>
+                    <div class="row g-3">
+                        <div class="col-auto">
+                            <label for="city">Amount: </label>
+                            <input [(ngModel)]="expense.amount" type="text" name="amount" class="form-control m-2" />    
+                        </div>
+                        <div class="col-auto" >
+                            <label for="country">Username: </label>
+                            <input [(ngModel)]="expense.username" type="text" name="Username" class="form-control m-2" />
+                        </div>
+                    </div>
+                </form>
+    </div>
+</div>

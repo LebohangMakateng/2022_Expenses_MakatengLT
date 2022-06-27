@@ -17,7 +17,7 @@ export class ExpenseListComponent implements OnInit {
   pagination: Pagination;
   container = 'Unread';
   pageNumber = 1;
-  pageSize = 5;
+  pageSize = 10;
   loading = false;
 
   constructor(private confirmService: ConfirmService, private expenseService: ExpenseService) { }

@@ -1,0 +1,101 @@
+[
+    {
+      "id": "62ba12b804fa56889a29a03f",
+      "ExpenseDate": "2019-01-23",
+      "Description": "Nostrud amet commodo non laborum velit nulla eu et mollit pariatur excepteur excepteur. Sit consectetur non exercitation velit duis ut sit anim. Fugiat fugiat pariatur anim ipsum sunt magna reprehenderit cillum non. Id enim eiusmod duis aute sint. Aliqua aute enim id eiusmod in ea ullamco ullamco sint dolore cupidatat labore commodo fugiat.\r\n",
+      "amount": "$2,938.80",
+      "UserName": "Casandra"
+    },
+    {
+      "id": "62ba12b83f88b4daaa001c6c",
+      "ExpenseDate": "2019-06-20",
+      "Description": "Ut laborum id ea quis. Adipisicing ea dolor nulla occaecat do dolor ea nostrud. Enim est consectetur veniam qui. Deserunt minim in cillum veniam sunt occaecat proident duis qui nulla magna. Mollit aliquip reprehenderit mollit occaecat. Aute minim ullamco eiusmod nulla in officia enim sint sunt. Culpa est proident Lorem mollit aute qui.\r\n",
+      "amount": "$1,780.51",
+      "UserName": "Natasha"
+    },
+    {
+      "id": "62ba12b86cf4fb9031eab02a",
+      "ExpenseDate": "2020-06-21",
+      "Description": "Nulla qui mollit culpa culpa nulla nisi occaecat anim et amet et commodo dolor ad. Nostrud pariatur ipsum nostrud mollit aliquip sint exercitation est amet cupidatat labore proident. Do nulla laborum ad fugiat qui est incididunt tempor nostrud Lorem consectetur ipsum. Dolore ad ullamco ex labore do occaecat dolor sit minim. Do anim non labore adipisicing enim ad. Est elit Lorem officia aliqua fugiat in tempor ex sunt laboris aliqua est cillum. Non ullamco adipisicing nisi amet non aliquip elit non tempor sunt.\r\n",
+      "amount": "$1,550.06",
+      "UserName": "Cynthia"
+    },
+    {
+      "id": "62ba12b834483f62890e2f8f",
+      "ExpenseDate": "2019-12-05",
+      "Description": "Excepteur nisi incididunt sit ullamco. Sunt cupidatat enim voluptate adipisicing pariatur consequat. Aliquip duis proident duis labore eiusmod excepteur do do laboris. Sit non qui consectetur culpa pariatur quis ut. Consequat mollit culpa minim pariatur culpa quis. Elit ut nulla elit ullamco velit laboris et irure non consequat ea esse sit. Dolor est culpa adipisicing exercitation consequat incididunt enim amet est amet.\r\n",
+      "amount": "$3,908.11",
+      "UserName": "Natasha"
+    },
+    {
+      "id": "62ba12b8ecdf495e075074a5",
+      "ExpenseDate": "2019-11-21",
+      "Description": "Sint culpa do esse labore reprehenderit. Amet incididunt proident commodo in veniam nulla nisi excepteur esse id aute officia quis. Sint adipisicing ullamco adipisicing nisi sunt sint dolor ipsum elit nulla esse. Sit magna ex ut laborum qui ad elit eu enim. Irure in ea amet culpa exercitation ut aliqua et veniam.\r\n",
+      "amount": "$3,448.40",
+      "UserName": "Claire"
+    },
+    {
+      "id": "62ba12b8d53d12cf25306c68",
+      "ExpenseDate": "2020-04-24",
+      "Description": "Minim est consectetur labore officia Lorem. Labore duis cupidatat officia reprehenderit magna cupidatat qui magna qui amet eiusmod aute enim labore. Consequat aliquip quis occaecat anim do cupidatat esse occaecat laboris minim ea non.\r\n",
+      "amount": "$3,900.24",
+      "UserName": "Carla"
+    },
+    {
+      "id": "62ba12b8a37668340cd03922",
+      "ExpenseDate": "2019-11-24",
+      "Description": "Incididunt cillum dolor ipsum esse Lorem aliqua enim anim nisi. Labore exercitation velit id velit proident anim eiusmod laborum pariatur. Laborum et eiusmod non exercitation aliquip ullamco culpa ullamco sit anim ullamco.\r\n",
+      "amount": "$3,288.79",
+      "UserName": "Carla"
+    },
+        {
+          "id": "62ba136761d14fa497d67f49",
+          "ExpenseDate": "2019-12-07",
+          "Description": "Deserunt magna occaecat nulla eiusmod id velit dolor. Lorem reprehenderit sint do ex elit aliqua aliquip cillum commodo culpa laborum exercitation. Mollit anim ullamco nisi non ad sint minim do laboris consequat consequat eu quis. Nisi reprehenderit incididunt labore nostrud anim nulla sit do sint duis excepteur commodo deserunt. Enim dolore do nisi sit voluptate. Do dolor et eu aliqua consectetur amet qui.\r\n",
+          "amount": "$2,798.14",
+          "UserName": "Everett"
+        },
+        {
+          "id": "62ba13672b99e62fefcc0dc5",
+          "ExpenseDate": "2019-01-12",
+          "Description": "Consectetur do sunt aliquip laborum eu. Eu excepteur fugiat eiusmod elit Lorem cupidatat veniam ex aute cillum do. Aliqua ad nulla eu officia elit commodo ipsum mollit. Excepteur tempor minim officia magna adipisicing amet dolor consectetur deserunt sunt pariatur.\r\n",
+          "amount": "$2,408.28",
+          "UserName": "Curtis"
+        },
+        {
+          "id": "62ba13670a1b6be67f2596a2",
+          "ExpenseDate": "2020-04-27",
+          "Description": "Laboris anim aute est ipsum. Aute dolor ipsum tempor labore consequat elit aliquip est in dolore qui aliqua incididunt. Eiusmod laboris ea adipisicing ea nisi occaecat cupidatat ipsum occaecat ea aute pariatur. Reprehenderit commodo in est duis qui. Cillum adipisicing ex aliqua nulla qui. Qui reprehenderit duis commodo voluptate sunt dolor.\r\n",
+          "amount": "$3,633.62",
+          "UserName": "Vinson"
+        },
+        {
+          "id": "62ba13676e2043b2818913ca",
+          "ExpenseDate": "2020-05-26",
+          "Description": "Sunt cillum excepteur ad commodo mollit ullamco. Mollit cillum voluptate qui adipisicing dolore officia in sit. Dolore fugiat magna veniam cupidatat fugiat aute magna do eu nostrud cillum amet. In ad ex ut pariatur qui sit non amet sint dolore aliqua Lorem non.\r\n",
+          "amount": "$3,851.80",
+          "UserName": "Flores"
+        },
+        {
+          "id": "62ba1367a06e0b2fef9f198b",
+          "ExpenseDate": "2019-08-12",
+          "Description": "Amet elit laborum fugiat aliquip Lorem id nostrud consequat consequat amet mollit. Veniam fugiat cillum fugiat ipsum mollit. Fugiat proident nulla eu magna laboris. Velit exercitation eu sint cupidatat. Minim consectetur ullamco ullamco proident non enim eu ut aliquip anim cupidatat Lorem consequat.\r\n",
+          "amount": "$2,256.19",
+          "UserName": "Curtis"
+        },
+        {
+          "id": "62ba1367a411e0d4ec570a08",
+          "ExpenseDate": "2019-11-29",
+          "Description": "Aute cillum deserunt ut officia culpa eiusmod reprehenderit sunt officia quis quis incididunt eiusmod duis. Amet sit nulla quis ea. Amet culpa sit consectetur consequat dolore occaecat laboris quis enim qui et. Irure cupidatat non sint nostrud incididunt eiusmod velit quis cillum adipisicing velit laboris. Eu cillum occaecat eiusmod commodo sunt. Eiusmod id nisi occaecat do excepteur enim ad labore culpa aute voluptate esse reprehenderit.\r\n",
+          "amount": "$2,397.26",
+          "UserName": "Vinson"
+        },
+        {
+          "id": "62ba136796e3f71ddff8445e",
+          "ExpenseDate": "2019-10-03",
+          "Description": "Et proident reprehenderit in exercitation laboris. Fugiat aliquip ipsum ex labore et sit irure mollit deserunt nisi aliqua culpa. Culpa est nostrud ad nisi proident id esse ut eiusmod laboris fugiat. Exercitation dolor duis aliquip laboris. Est est enim ipsum qui culpa qui culpa nisi cillum nulla. Esse irure minim incididunt Lorem in pariatur sunt consectetur est id nulla incididunt. Pariatur eu incididunt esse consectetur esse Lorem aliquip reprehenderit pariatur ipsum.\r\n",
+          "amount": "$1,126.64",
+          "UserName": "Flores"
+        }
+      
+]

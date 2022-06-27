@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +15,12 @@ import { ContactComponent } from './contact/contact.component';
 import { DisclaimerComponent } from './disclaimer/disclaimer.component';
 import { NotFoundComponent } from './errors/not-found/not-found.component';
 import { ExpenseListComponent } from './Expenses/expense-list/expense-list.component';
+import { ExpenseUpdateComponent } from './expenses/expense-update/expense-update.component';
+import { NgxSpinnerModule } from 'ngx-spinner';
+import { JwtInterceptor } from './_interceptors/jwt.interceptor';
+import { LoadingInterceptor } from './_interceptors/loading.interceptor';
+import { ErrorInterceptor } from './_interceptors/error.interceptor';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +31,9 @@ import { ExpenseListComponent } from './Expenses/expense-list/expense-list.compo
     ContactComponent,
     DisclaimerComponent,
     NotFoundComponent,
-    ExpenseListComponent
+    ExpenseListComponent,
+    ExpenseUpdateComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -33,12 +41,18 @@ import { ExpenseListComponent } from './Expenses/expense-list/expense-list.compo
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
+    ReactiveFormsModule,
+    NgxSpinnerModule,
     BsDropdownModule.forRoot(),
     ToastrModule.forRoot({
       positionClass: 'toast-bottom-right'
     })
   ],
-  providers: [],
+  providers: [
+    {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi:true},
+    {provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi:true},
+    {provide: HTTP_INTERCEPTORS, useClass: LoadingInterceptor, multi:true}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

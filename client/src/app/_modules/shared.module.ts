@@ -8,6 +8,7 @@ import {PaginationModule} from 'ngx-bootstrap/pagination';
 import {ButtonsModule} from 'ngx-bootstrap/buttons';
 import {TimeagoModule} from 'ngx-timeago';
 import {ModalModule} from 'ngx-bootstrap/modal';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [],
@@ -23,6 +24,7 @@ import {ModalModule} from 'ngx-bootstrap/modal';
     ButtonsModule.forRoot(),
     TimeagoModule.forRoot(),
     ModalModule.forRoot(),
+    FormsModule
   ],
   exports: [
     BsDropdownModule,

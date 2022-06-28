@@ -20,6 +20,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 import { JwtInterceptor } from './_interceptors/jwt.interceptor';
 import { LoadingInterceptor } from './_interceptors/loading.interceptor';
 import { ErrorInterceptor } from './_interceptors/error.interceptor';
+import { SharedModule } from './_modules/shared.module';
 
 
 @NgModule({
@@ -42,6 +43,7 @@ import { ErrorInterceptor } from './_interceptors/error.interceptor';
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
+    SharedModule,
     NgxSpinnerModule,
     BsDropdownModule.forRoot(),
     ToastrModule.forRoot({

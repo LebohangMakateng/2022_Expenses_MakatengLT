@@ -5,12 +5,12 @@ using API.DTOs;
 using API.Entities;
 using API.Interfaces;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-    [Route("api/[controller]/[action]")]
-    [ApiController]
+    [Authorize]
     public class ExpensesController: BaseApiController
     { 
         private readonly IMapper _mapper;

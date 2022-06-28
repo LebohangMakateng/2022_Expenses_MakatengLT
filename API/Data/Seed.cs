@@ -36,9 +36,6 @@ namespace API.Data
 
                 await context.Users.AddAsync(user);
             }
-
-            
-
             await context.SaveChangesAsync();
         }
     }
